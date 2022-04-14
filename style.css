@@ -1,0 +1,77 @@
+#Head
+{
+    position: absolute;
+    width: 100%;
+    height: 95px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 1;
+    display: block;
+    background-color: #95ccff;
+}
+#Head2{height: 95px;}
+
+#Foot
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-color: #95ccff;
+}
+
+#Title
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+text-align: center;
+}
+
+p
+{
+        text-align: center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#Menu
+{
+     /*height: 50px;
+     width: 100%;*/
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     padding: 0px;
+     margin: 0px;
+     list-style: none;
+}
+
+#Menu > div
+{
+        height: 200px;
+
+        margin: 10px;
+        padding: 10px;
+
+        border-radius: 15px;
+        background-color: #95ccff;
+}
+
+ @media screen and (orientation:landscape) {
+         #Menu > div{width: 40%;}
+ }
+ @media screen and (orientation:portrait) {
+       #Menu > div {width: 85%;}
+ }
