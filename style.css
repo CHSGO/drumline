@@ -1,19 +1,41 @@
-body
+body, html
 {
+  height: 100%;
+}
+body {
   background: rgb(67,96,157);
-  background: linear-gradient(0deg, rgba(67,96,157,1) 0%, rgba(119,195,255,1) 100%);
+  background: linear-gradient(0deg, rgba(0,54,105,1) 0%, rgba(0,54,105,1) 10%, rgba(67,96,157,1) 11%, rgba(119,195,255,1) 100%);
 }
 
-#Head
+#content
 {
-  width: 100%;
-  height: 95px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#Head, #Foot
+{
+  flex-shrink: 0;
+
+  /*width: 100%;
+  height: 95px;*/
+}
+#Menu
+{
+  flex-grow: 1;
+  
+  /*height: 100%;*/
 }
 
-.Foot
+#Foot
 {
-  width: 100%;
+  /*position: absolute;
+  top: 1;
+  bottom: 0;
+  margin-top: auto;
+
   height: 90px;
+  width: 100%;*/
 
   background: rgb(0, 54, 105);
 
@@ -24,19 +46,10 @@ body
   box-shadow: 0px 0px 20px 30px rgb(0,54,105);
 }
 
-#Title
+#Title /* Font */
 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 45px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none solid rgb(68, 68, 68);
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
-  text-align: center;
 }
 
 p
@@ -78,7 +91,7 @@ img
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 }
 
-#back
+#back /* Back Arrow */
 {
   position: fixed;
   cursor: pointer;
@@ -88,8 +101,8 @@ img
 }
 
  @media screen and (orientation:landscape) {
-         #Menu > div{width: 40%;}
+   #Menu > div{width: 40%;}
  }
  @media screen and (orientation:portrait) {
-       #Menu > div {width: 85%;}
+   #Menu > div {width: 85%;}
  }
