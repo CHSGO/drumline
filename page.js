@@ -1,8 +1,10 @@
-let header = '<div id="Head"><p id="Title">Cymbals</p></div><div id="Head2"></div>';
+let header = '<div id="Head"><h1 id="Title">Cymbals</h1></div><div id="Head2"></div><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;900&family=Exo+2:wght@600&display=swap" rel="stylesheet">';
 document.getElementById("header").innerHTML = header;
 
-let footer = '<footer id="Foot" class="Foot"> <p id="FooterText">The Ultimate Cymbal Guidebook for High School Drumline<br><br>High Five<br>Glitch</p> </footer>';
+let footer = '<footer id="Foot" class="Foot"> <h1 id="FooterText">The Ultimate Cymbal Guidebook for High School Drumline<br><br>High Five<br>Glitch</h1> </footer>';
 document.getElementById("footer").innerHTML = footer;
+
+
 
 //function fill()
 //{
