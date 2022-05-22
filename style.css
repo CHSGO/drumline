@@ -13,9 +13,9 @@ body {
 .wrapper
 {
   min-height: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -160px;
 }
-.footer, .push {height: 70px;}
+.footer, .push {height: 180px;}
 .footer {margin-bottom: 30px; margin-top: 20px;}
 
 #Foot
@@ -32,7 +32,7 @@ body {
 #Title /* Font */
 {
   margin: 40px;
-  font-family: Big Shoulders Stencil Display, display;
+  font-family: 'Lobster Two', cursive;
   font-size: 80px;
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
@@ -48,8 +48,8 @@ p
 {
   text-align: center;
   margin: 0px;
-  font-family: Exo 2;
-  font-size: 35px;
+  font-family: 'Merriweather', serif;
+  font-size: 2vw;
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
   text-transform: none;
@@ -62,7 +62,7 @@ h1
 {
   text-align: center;
   margin: 0px;
-  font-family: Exo 2;
+  font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
@@ -133,7 +133,7 @@ img
 }
 
  @media screen and (orientation:landscape) {
-   #Menu > div{width: 40%;}
+   #Menu > div{width: 15%;}
  }
  @media screen and (orientation:portrait) {
    #Menu > div {width: 85%;}
